@@ -1,10 +1,3 @@
-/* Electronoobs POV dsiplay (Persistance of vision)
- * 
- * Subscribe: http://www.youtube.com/c/ELECTRONOOBS
- * Tutorial: http://www.electronoobs.com/eng_arduino_tut21.php
- */
-
-
 
 int text_ok=0;
 int a[] = {126, 144, 144, 144, 126};
@@ -145,7 +138,7 @@ void loop() {
   //This if here is to make sure I'll start printing at 216 deg so the text will be centered.
   if((elapsed_loop_counter >=  time_per_deg*(216)) && (elapsed_loop_counter <  time_per_deg*(217)) &&  text_ok)
   { 
-  displayString("electronoobs",delayTime);
+  displayString("ftncacak",delayTime);
   //delayMicroseconds(delayTime*10);
   text_ok=0;
   }
